@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Using Heaps algorithm to solve this problem
-// Referred to -
+// Referred to:
 // 1) https://en.wikipedia.org/wiki/Heap%27s_algorithm#:~:text=Heap's%20algorithm%20generates%20all%20possible,2%20elements%20are%20not%20disturbed.
 // 2) https://www.baeldung.com/cs/array-generate-all-permutations 
 
