@@ -213,7 +213,7 @@ void inorder(struct node * anode){
 
     // Initialize a stack to help with the traversal
     STACK st;
-    initStack(&st); // Assuming 'initStack' is a function to initialize the stack
+    initStack(&st); 
 
     struct node* curr = anode; // Start traversal from the root node
 
@@ -226,10 +226,9 @@ void inorder(struct node * anode){
 
         // When we reach a NULL left child or after processing left subtrees,
         // pop a node from the stack, print its value, and move to its right child
-        curr = pop(&st); // to pop a node from the stack
-        printf("%d ", curr->key); // Print the value of the current node
-
-        curr = curr->right; // Move to the right child for further traversal
+        curr = pop(&st); 
+        printf("%d ", curr->key); 
+        curr = curr->right; // Move to the right for further traversal
     }
 }
 
