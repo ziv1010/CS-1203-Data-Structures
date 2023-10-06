@@ -79,6 +79,7 @@ struct node * search(struct node * anode, int k){
     return NULL;
 }
 
+//To insert the element in its correct position and esuring the tree stays as a BST 
 struct node * insert(struct node * anode, int k){
     struct node *temp, *parent;
     int direction;
@@ -115,6 +116,7 @@ struct node * insert(struct node * anode, int k){
     return temp;
 }
 
+//To delete any element and ensure it stays a BST after deleting the element
 struct node * delete (struct node * anode, int k){
 
     struct node *temp, *parent, *intemp, *inparent;
