@@ -54,3 +54,5 @@ int main() {
 
     return 0;
 }
+
+//took some help from Jaee for the experimental data part of the code (main method)
